@@ -21,6 +21,6 @@ test:
   <<: *default
   database: folks-api_development
 
-# production:
-#   <<: *default
-#   database: folks-api_development
+production:
+  <<: *default
+  database: folks-api_development
